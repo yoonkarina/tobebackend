@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import express from 'express';
-
 import swaggerRoute from './docs.route';
+
 import '../configs/env.config';
 
 const router = express.Router();
